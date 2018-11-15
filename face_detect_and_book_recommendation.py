@@ -8,8 +8,6 @@ python2
 import cv2
 import urllib2
 import time
-import os
-os.chdir('E:/face_detect_demo/systems/')  #本地当前路径
 http_url='https://api-cn.faceplusplus.com/facepp/v3/detect' #face++ API url
 key = "sJVodwPAjfbo18Vc2OCZjIUuM1u2BhMe" #my free key
 secret = "29dB1GxL9oXbv7P117CLa4ZyUdHzj0wp" # my secret
